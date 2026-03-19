@@ -17,7 +17,7 @@ export class AppwriteAuth{
         try{
             const userAccount = await this.account.create(ID.unique(), emailID, password, name)
             if(userAccount){
-                return awaitthis.login({emailID, password});
+                return await this.login({emailID, password});
             }
             else{
                 return userAccount;
@@ -39,6 +39,7 @@ export class AppwriteAuth{
         }
         catch(error){
             console.log("Appwrite :: Login :: error :: ",error)
+            throw error;
         }
     }
 

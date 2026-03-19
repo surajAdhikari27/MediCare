@@ -33,7 +33,10 @@ function Login(){
             console.log("Error in login :: ", error)
 
             if(error.code==401){
-                setError("Account does not exists or incorrect password!")
+                setError("Account does not exists. Redirecting to signup page...")
+                setTimeout(()=>{
+                    navigate("/signup", {state: {email}})
+                },1500)
             }
             else{
                 setError("Something went wrong. Please try again")
