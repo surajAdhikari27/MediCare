@@ -1,0 +1,58 @@
+.heroSection{
+    width: 100%;
+    min-height: 70vh;
+    background: #f7f9fc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.logo{
+    margin-bottom: 20px;
+}
+
+.logo img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    padding: 12px;
+    border-radius: 14px;
+}
+
+.description{
+    max-width: 750px;
+}
+
+.description h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 16px;
+}
+
+.description p{
+    font-size: 16px;
+    color: #4b5563;
+    line-height: 1.6;
+    margin-bottom: 28px;
+}
+
+.dashboardBtn{
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.25s ease;
+}
+
+.dashboardBtn:hover{
+    background: #1e4ed8;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}

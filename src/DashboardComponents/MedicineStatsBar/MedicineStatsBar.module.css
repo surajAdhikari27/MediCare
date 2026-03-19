@@ -1,0 +1,53 @@
+.statsBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px 0;
+}
+
+.todaysTotal,
+.taken,
+.pending{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.todaysTotal img,
+.taken img,
+.pending img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.todaysTotal{
+    border: 1px solid #cbd5f5;
+}
+
+.taken{
+    border: 1px solid #86efac;
+}
+
+.pending{
+    border: 1px solid #fde68a;
+}
+
+.todaysDetails p:first-child,
+.takenDetails p:first-child,
+.pendingDetails p:first-child{
+    font-size: 14px;
+    color: #475569;
+}
+
+.todaysDetails p:last-child,
+.takenDetails p:last-child,
+.pendingDetails p:last-child{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+}

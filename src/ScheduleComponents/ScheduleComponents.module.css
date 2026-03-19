@@ -1,0 +1,124 @@
+.scheduleHeader{
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.scheduleHeader h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.scheduleHeader p{
+    font-size: 14px;
+    color: #64748b;
+}
+
+.scheduledMedicines{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 14px 18px;
+    border-radius: 12px;
+    background: #f8fafc;
+    border: 1px solid #e2e8f0;
+}
+
+.reminderTime{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-weight: 500;
+}
+
+.reminderTime svg{
+    background: #dbeafe;
+    color: #2563eb;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.medicineDetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0f172a;
+}
+
+.medicineDetails span:last-child{
+    color: #64748b;
+}
+
+.takenBadge{
+    margin-left: auto;
+    background: #dcfce7;
+    color: #15803d;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.timeSection{
+    border: 1px solid #fbbf24;
+    border-radius: 14px;
+    padding: 18px 20px;
+    background: #f8fafc;
+    margin-bottom: 20px;
+}
+
+.timeDetails{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 16px;
+}
+
+.timeDetails svg{
+    background: #f1f5f9;
+    padding: 8px;
+    border-radius: 10px;
+    color: #334155;
+}
+
+.times p:first-child{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.times p:last-child{
+    font-size: 13px;
+    color: #64748b;
+}
+
+.scheduledMedicinesCards{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.scheduleTips{
+    border: 1px solid #93c5fd;
+    border-radius: 12px;
+    padding: 18px 20px;
+    background: #f8fafc;
+    margin-top: 20px;
+}
+
+.scheduleTips h3{
+    font-size: 18px;
+    color: #1d4ed8;
+    margin-bottom: 10px;
+}
+
+.scheduleTips ul{
+    padding-left: 20px;
+}
+
+.scheduleTips li{
+    font-size: 14px;
+    color: #2563eb;
+    margin-bottom: 6px;
+}

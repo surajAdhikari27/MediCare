@@ -1,0 +1,157 @@
+.historyDetails{
+    margin-bottom: 25px;
+}
+
+.historyDetails h1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.historyDetails p{
+    font-size: 14px;
+    color: #64748b;
+}
+
+.historyStatsBar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.adherenceCard,
+.takenCard,
+.missedCard{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    background: #f8fafc;
+}
+
+.adherenceCard svg,
+.takenCard svg,
+.missedCard svg{
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.adherenceCard{
+    border: 1px solid #cbd5f5;
+}
+
+.adherenceCard svg{
+    background: #dbeafe;
+    color: #2563eb;
+}
+
+.takenCard{
+    border: 1px solid #86efac;
+}
+
+.takenCard svg{
+    background: #dcfce7;
+    color: #16a34a;
+}
+
+.missedCard{
+    border: 1px solid #fca5a5;
+}
+
+.missedCard svg{
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.adherenceDetails p:first-child,
+.takenDetails p:first-child,
+.missedDetails p:first-child{
+    font-size: 14px;
+    color: #475569;
+}
+
+.adherenceDetails p:last-child,
+.takenDetails p:last-child,
+.missedDetails p:last-child{
+    font-size: 20px;
+    font-weight: 700;
+    color: #0f172a;
+}
+
+.historyMedicineCard{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 18px 20px;
+    border-radius: 12px;
+    border: 1px solid #86efac;
+    background: #f8fafc;
+    flex: 1;
+    width: 100%;
+}
+
+.logoBox{
+    width: 60px;
+    height: 60px;
+    background: #dcfce7;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoBox img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.historyMedicineDetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.historyMedicineDetails h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+}
+
+.historyMedicineDetails p{
+    font-size: 14px;
+    color: #475569;
+    margin-top: 3px;
+}
+
+.historyMedicineDetails p:last-child{
+    display: inline-block;
+    background: #dcfce7;
+    color: #15803d;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-top: 6px;
+}
+
+.dateSection{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 10px;
+}
+
+.dateSection h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: #0f172a;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

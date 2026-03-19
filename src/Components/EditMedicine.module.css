@@ -1,0 +1,111 @@
+.editMedicineForm{
+    min-height:100vh;
+    width:100%;
+    background-color:#f4f6f9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.formContainer{
+    display:flex;
+    flex-direction:column;
+    width:400px;
+}
+
+.formContainer button:first-child{
+    background:none;
+    border:none;
+    font-size:16px;
+    cursor:pointer;
+    margin-bottom:10px;
+    align-self:flex-start;
+}
+
+form{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+form h2{
+    margin-bottom:5px;
+    font-size:large;
+    font-weight:600;
+}
+
+form p{
+    color:#666;
+    font-size:14px;
+}
+
+.medicineName,
+.dosage,
+.time,
+.startDate,
+.endDate{
+    margin-top:15px;
+    display:flex;
+    flex-direction:column;
+}
+
+.medicineName p,
+.dosage p,
+.time p,
+.startDate p,
+.endDate p{
+    font-size:14px;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+input{
+    padding:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+}
+
+input:focus{
+    outline:none;
+    border-color:#4CAF50;
+}
+
+.dates{
+    display:flex;
+    gap:10px;
+}
+
+.submits{
+    margin-top:20px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.submits button[type="submit"]{
+    background:#4CAF50;
+    color:white;
+    padding:10px 15px;
+    border:none;
+    border-radius:6px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+
+.submits button:last-child{
+    background:#ddd;
+    color:#333;
+    width:150px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    border-radius:6px;
+    height: 45px;
+}
+
+.submits button:hover{
+    opacity:0.9;
+}

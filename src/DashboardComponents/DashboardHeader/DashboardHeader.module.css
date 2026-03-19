@@ -1,0 +1,39 @@
+.dashboardHeader{
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.currentDate h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #0f172a;
+    margin-bottom: 4px;
+}
+
+.currentDate p{
+    font-size: 14px;
+    color: #64748b;
+}
+
+.addBtn{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.addBtn:hover{
+    background: #1d4ed8;
+}
+
