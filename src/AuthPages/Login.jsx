@@ -26,8 +26,14 @@ function Login(){
             )
 
             const user= await AppwriteAuthService.getCurrentUser()
-            dispatch(login(user))
-            navigate("/dashboard")
+             if(!user){
+                setError("Failed to retrieve user details. Please try again.")
+                return;
+             }
+             else{
+                dispatch(login(user))
+                navigate("/dashboard")
+             }
         }
         catch(error){
             console.log("Error in login :: ", error)

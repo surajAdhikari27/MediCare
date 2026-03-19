@@ -17,7 +17,7 @@ export class AppwriteAuth{
         try{
             const userAccount = await this.account.create(ID.unique(), emailID, password, name)
             if(userAccount){
-                return await this.login({emailID, password});
+                return await this.login({email:emailID, password});
             }
             else{
                 return userAccount;
@@ -34,7 +34,7 @@ export class AppwriteAuth{
             try{
                 await this.account.deleteSession();
             }catch(e){}
-            
+
             return await this.account.createEmailPasswordSession(email,password);
         }
         catch(error){
