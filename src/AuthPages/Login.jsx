@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux"
 import { useNavigate, Link} from "react-router-dom"
 import AppwriteAuthService from "../appwrite/AppwriteAuth"
 import {login} from "../store/AuthSlice"
-import styles from './login.module.css'
+import styles from './Login.module.css'
 
 function Login(){
     const [email, setEmail]= useState("")
