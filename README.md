@@ -61,44 +61,8 @@ MediRemind is a web-based medicine reminder application designed to help users m
 
 
 
-## Project Structure
-
-src/
-│
-├── appwrite/
-│   ├── AppwriteAuth.js
-│   └── MedicineCRUD.js
-│
-├── components/
-│   ├── Navbar/
-│   ├── DashboardComponents/
-│   ├── Schedule/
-│   └── HistoryComponents/
-│
-├── pages/
-│   ├── Home.jsx
-│   ├── Dashboard.jsx
-│   ├── Schedule.jsx
-│   ├── History.jsx
-│   ├── AddMedicine.jsx
-│   ├── EditMedicine.jsx
-│   ├── Login.jsx
-│   └── Signup.jsx
-│
-├── store/
-│   ├── authSlice.js
-│   └── store.js
-│
-└── config.js
-
-
 
 ## Setup Instructions
-
-1. Clone the Repository
-
-git clone https://github.com/your-username/mediremind.git
-cd mediremind
 
 2. Install Dependencies
 
@@ -125,20 +89,6 @@ Required Collection Fields
 - isNotified (boolean)
 - takenDate (datetime, optional)
 
----
-
-4. Environment Configuration
-
-Create a "config.js" file:
-
-const config = {
-  appwriteUrl: "https://your-appwrite-endpoint/v1",
-  appwriteProjectID: "your_project_id",
-  appwriteDatabaseID: "your_database_id",
-  appwriteCollectionID: "your_collection_id",
-};
-
-export default config;
 
 ---
 
